@@ -1,3 +1,19 @@
-## Monte-Carlo calculation Pi number
+# Calculation Pi number using Monte Carlo algorithm
 
-Using different programming languages
+This repository is aimed to be collection of implementations of a simple Monte Carlo algorithm for computing Pi number. In the future, I'm going to add more different programming languages and make a benchmark.
+
+## List of programming languages
+- Python
+- Rust
+- ...
+
+
+## Benchmark
+All measurments was made with using [Hyperfine](https://github.com/sharkdp/hyperfine) on laptop Intel i3-5005U, 2.00 GHz.
+
+
+
+| Language    | Result [ms] |
+| ----------- | ----------- |
+| Rust        | 34          |
+| Python (fastest version)   | 525        |
