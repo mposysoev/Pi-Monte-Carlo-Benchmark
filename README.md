@@ -9,7 +9,7 @@ This repository is aimed to be collection of implementations of a simple Monte C
 
 
 ## Benchmark
-All measurments was made with using [Hyperfine](https://github.com/sharkdp/hyperfine) on laptop Intel i3-5005U, 2.00 GHz.
+All measurements were made with using [Hyperfine](https://github.com/sharkdp/hyperfine) on laptop Intel i3-5005U, 2.00 GHz.
 
 
 
