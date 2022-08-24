@@ -16,4 +16,5 @@ All measurements were made with using [Hyperfine](https://github.com/sharkdp/hyp
 | Language    | Result [ms] |
 | ----------- | ----------- |
 | Rust        | 34          |
-| Python (fastest version)   | 525        |
+| Nim | 96 |
+| Python (fastest version) | 525 |
