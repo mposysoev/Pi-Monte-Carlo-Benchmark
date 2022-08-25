@@ -1,16 +1,15 @@
-#include <iostream>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-using namespace std;
 
 double calculate_pi(int n)
 {
     double x, y;
     int counter = 0;
-
-    srand(time(NULL));
     
+    srand(time(NULL));
+
     for (int i = 0; i < n; i++)
     {
         x = (double)(rand()) / ((double)(RAND_MAX));
@@ -28,7 +27,7 @@ int main()
 {
     int number_of_iteration = 1000000;
     double result = calculate_pi(number_of_iteration);
-    cout << result << endl;
+    printf("%f", result);
 
     return 0;
 }

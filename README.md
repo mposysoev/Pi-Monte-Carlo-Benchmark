@@ -11,6 +11,7 @@ Number of iterations - 1_000_000
 | Language    | Result [ms] |
 | ----------- | ----------- |
 | Rust        | 34          |
+|C | 63 |
 |C++ | 72 |
 | Nim | 96 |
 | Julia | 520 |
