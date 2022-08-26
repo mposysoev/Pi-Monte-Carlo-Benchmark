@@ -6,13 +6,18 @@ This repository is aimed to be collection of implementations of a simple Monte C
 ## Benchmark
 All measurements were made with using [Hyperfine](https://github.com/sharkdp/hyperfine) on laptop Intel i3-5005U, 2.00 GHz.
 
+```
 Number of iterations - 1_000_000
+```
 
-| Language    | Result [ms] |
-| ----------- | ----------- |
-| Rust        | 34          |
-|C | 63 |
-|C++ | 72 |
-| Nim | 96 |
-| Julia | 520 |
-| Python (fastest version) | 525 |
+| Language    	| Result [ms] 	| Relative 	| Opinion	|
+| ------------- | ------------- | ---------	| ---------	|
+| Rust        	| 34          	|	1	   	| +2 		|
+| D 			| 49 			| todo		| +1.5 		|
+| C 			| 63 			| later		| 0 		|
+| C++ 			| 72 			|			| 0			|
+| Go 			| 82			|			| +1.25 	|
+| Nim 			| 96 			|			| +0.5 		|
+| Zig 			| 289 			|			| -2		|
+| Julia 		| 520 			|			| -1		|
+| Python 		| 525 			|			| +2 		|
