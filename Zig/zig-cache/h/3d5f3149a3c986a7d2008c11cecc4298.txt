@@ -1,0 +1,1 @@
+56944 562949953741158 1661209980694400600 d01f2b3a7fbdb7b6ee42d2cd6f6829ec D:\programming\zig\ZIG\lib\libc\mingw\lib-common\ntdll.def.in

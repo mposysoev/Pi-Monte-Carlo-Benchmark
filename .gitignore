@@ -1,2 +1,15 @@
 .git
 Rust/target
+**/gradle
+**/build
+**/.idea
+**/.gradle
+*.gradle
+build.gradle
+gradlew
+gradlew.bat
+settings.gradle
+gradle.properties
+build.gradle.kts
+settings.gradle.kts
+
