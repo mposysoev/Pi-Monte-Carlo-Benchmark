@@ -1,8 +1,10 @@
-function calculate_pi(n)
+using RandomNumbers
+
+function calculate_pi(n, rng)
     counter = 0
-    for i = 0:n
-        x = rand()
-        y = rand()
+    @fastmath @inbounds @simd for i = 0:n
+        x = rand(rng)
+        y = rand(rng)
         if x * x + y * y < 1
             counter += 1
         end
@@ -12,8 +14,9 @@ end
 
 
 function main()
+    rng_xor = RandomNumbers.Xorshifts.Xoroshiro128Plus()
     number_of_itteration = 1_000_000
-    println(calculate_pi(number_of_itteration))
+    println(calculate_pi(number_of_itteration, rng_xor))
 end
 
 main()
