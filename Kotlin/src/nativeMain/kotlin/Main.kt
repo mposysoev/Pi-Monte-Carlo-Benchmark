@@ -4,8 +4,8 @@ fun calculatePi(n: Int): Double {
     var counter = 0
 
     for (i in 0..n) {
-        var x = Random.nextDouble()
-        var y = Random.nextDouble()
+        val x = Random.nextDouble()
+        val y = Random.nextDouble()
         if (x * x + y * y < 1) {
             counter += 1
         }
@@ -15,7 +15,7 @@ fun calculatePi(n: Int): Double {
 
 
 fun main() {
-    var numberOfIterations = 1_000_000
-    var result = calculatePi(numberOfIterations)
+    val numberOfIterations = 1_000_000
+    val result = calculatePi(numberOfIterations)
     println(result)
 }

@@ -12,6 +12,7 @@ settings.gradle
 gradle.properties
 build.gradle.kts
 settings.gradle.kts
-zig-out
-zig-cache
+/zig-out
+/zig-cache
+*.exe
 
