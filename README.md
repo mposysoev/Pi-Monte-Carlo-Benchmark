@@ -16,10 +16,11 @@ Number of iterations = 1_000_000
 | D 			| 49 			| todo		| +1.5 		|
 | C 			| 63 			| later		| -1 		|
 | V 			| 68			|			|-0.5/+0.25 |
-| C++ 			| 72 			|			| -1			|
+| C++ 			| 72 			|			| -1		|
 | Go 			| 82			|			| +1 	 	|
 | Nim 			| 96 			|			| +0.5 		|
 |Kotlin (Native)| 98			|			| +1 		|
+| Dart (exe)	| 198			|			| +1 		|
 | Zig 			| 289 			|			| -2		|
 | Java			| 298			|			| -2		|
 | Kotlin (JVM)	| 328			|			| -2		|
