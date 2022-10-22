@@ -15,4 +15,5 @@ settings.gradle.kts
 /zig-out
 /zig-cache
 *.exe
+/Clojure
 

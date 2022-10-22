@@ -1,0 +1,42 @@
+Idris
+Haskell
+Clojure
+Elixir
+Erlang
+Scala
+JavaScript
+Dart
+Swift 
+F#
+C#
+Fortran
+Crystal
+Assembly
+Pony lang
+Chapel
+Smalltalk
+Forth
+Elm
+Nemerle ?
+Standart ML
+OCaml
+Ada
+R
+Wolfram Language
+Mercury
+Prolog
+Ruby
+Pascal
+Racket
+Scheme
+Common Lisp
+Chez Scheme
+PureScript
+Lean?
+Coq?
+Oberon
+Perl/Raku
+PHP
+Odin
+Beef
+Modula-2
