@@ -18,6 +18,7 @@ Number of iterations = 1_000_000
 | V 			| 68			|			|-0.5/+0.25 |
 | C++ 			| 72 			|			| -1		|
 | Go 			| 82			|			| +1 	 	|
+| Fortran		| 86			| 			| +0.5 		|
 | Nim 			| 96 			|			| +0.5 		|
 |Kotlin (Native)| 98			|			| +1 		|
 | Dart (exe)	| 198			|			| +1 		|
