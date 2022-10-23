@@ -1,39 +1,39 @@
-Idris
+Pascal
+C#
+Ruby
 Haskell
-Clojure
+Odin
+Beef
+Clojure (in progress...)
 Elixir
 Erlang
 Scala
 Swift 
-F#
-C#
-Crystal
-Assembly
-Pony lang
-Chapel
-Smalltalk
-Forth
-Elm
-Nemerle ?
-Standart ML
-OCaml
-Ada
 R
 Wolfram Language
+F#
+Crystal
+Elm
+OCaml
+Ada
+Idris
 Mercury
 Prolog
-Ruby
-Pascal
 Racket
+Chapel
 Scheme
 Common Lisp
 Chez Scheme
+Assembly
 PureScript
-Lean?
-Coq?
-Oberon
 Perl/Raku
 PHP
-Odin
-Beef
+Lean
+Coq?
+Oberon
+Forth
+Smalltalk
+Pony lang
 Modula-2
+Nemerle
+Standart ML

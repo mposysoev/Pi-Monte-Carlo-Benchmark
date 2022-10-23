@@ -13,15 +13,15 @@ Number of iterations = 1_000_000
 | Language    	| Result [ms] 	| Ratio 	| Opinion	|
 | ------------- | ------------- | ---------	| ---------	|
 | Rust        	| 34          	|	1	   	| +2 		|
-| D 			| 49 			| todo		| +1.5 		|
-| C 			| 63 			| later		| -1 		|
+| D (ldc2)		| 49 			| todo		| +1.5 		|
+| C (gcc)		| 63 			| later		| -1 		|
 | V 			| 68			|			|-0.5/+0.25 |
-| C++ 			| 72 			|			| -1		|
+| C++ (g++)		| 72 			|			| -1		|
 | Go 			| 82			|			| +1 	 	|
-| Fortran		| 86			| 			| +0.5 		|
+|Fortran (ifort)| 86			| 			| +0.5 		|
 | Nim 			| 96 			|			| +0.5 		|
 |Kotlin (Native)| 98			|			| +1 		|
-| JavaScript	| 159			|			| +1 		|
+|JS/TS (node.js)| 159			|			| +1 		|
 | Dart (exe)	| 198			|			| +1 		|
 | Zig 			| 289 			|			| -2		|
 | Java			| 298			|			| -2		|
