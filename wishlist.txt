@@ -5,11 +5,9 @@ Elixir
 Erlang
 Scala
 JavaScript
-Dart
 Swift 
 F#
 C#
-Fortran
 Crystal
 Assembly
 Pony lang
