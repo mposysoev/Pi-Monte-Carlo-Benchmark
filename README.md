@@ -21,6 +21,7 @@ Number of iterations = 1_000_000
 | Fortran		| 86			| 			| +0.5 		|
 | Nim 			| 96 			|			| +0.5 		|
 |Kotlin (Native)| 98			|			| +1 		|
+| JavaScript	| 159			|			| +1 		|
 | Dart (exe)	| 198			|			| +1 		|
 | Zig 			| 289 			|			| -2		|
 | Java			| 298			|			| -2		|
