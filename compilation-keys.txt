@@ -1,0 +1,17 @@
+Rust                rustc -C debuginfo=0 -C opt-level=3 -C target-cpu=native -C lto=fat -C codegen-units=1 -C panic=abort <file_name>
+D                   ldc2.exe -O3 -release -mcpu=native -march=x86-64 -flto=full -static -ffast-math <file_name>
+C                   gcc <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math
+V 					v <file_name> (-prod doesn't work)
+C++                 g++ <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math
+Go                  go build <file_name>
+Fortran             ifort -O3 -march=native -ipo -static -qopenmp <file_name>
+Pascal              fpc -XXs -O3 -Ci- -Cr- -g- -CpCOREAVX -CfAVX .\main.pas
+Nim					nim c --verbosity:0 -d:danger --passC:"-flto"  --passL:"-flto" --gc:arc <file-name>
+Kotlin (Native)
+JS/TS
+Dart
+Zig
+Java
+Kotlin (JVM)
+Julia
+Python
