@@ -1,8 +1,7 @@
-Pascal
 C#
 Ruby
 Haskell
-Odin
+Jai
 Beef
 Clojure (in progress...)
 Elixir
