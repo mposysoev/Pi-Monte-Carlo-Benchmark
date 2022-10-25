@@ -30,5 +30,6 @@ Number of iterations = 1_000_000
 | Kotlin (JVM)	| 328			|			| -2		|
 | Julia 		| 520 			|			| -1		|
 | Python 		| 525 			|			| +2 		|
+| PowerShell	| 112527		|			| +0.5 =)	|
 
 * -- Odin output 3.141. It seems that this language still doesn't have full support of float64 type. Requared test after next release.
