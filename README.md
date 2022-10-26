@@ -20,6 +20,7 @@ Number of iterations = 1_000_000
 | C++ (g++)		| 72 			|			| -1		|
 | Go 			| 82			|			| +1 	 	|
 |Fortran (ifort)| 86			| 			| +0.5 		|
+| C# 			| 92.7			|			| 0 		|
 | Pascal (Free)	| 93			|			| -0.5 		|
 | Nim 			| 96 			|			| +0.5 		|
 |Kotlin (Native)| 98			|			| +1 		|
