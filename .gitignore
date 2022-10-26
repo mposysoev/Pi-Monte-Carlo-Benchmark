@@ -16,4 +16,5 @@ settings.gradle.kts
 /zig-cache
 *.exe
 /Clojure
+/C#/bin
 
