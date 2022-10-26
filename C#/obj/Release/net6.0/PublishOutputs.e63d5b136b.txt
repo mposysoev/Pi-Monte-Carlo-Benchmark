@@ -1,5 +1,0 @@
-D:\Development\Pi-Monte-Carlo\C#\bin\Release\net6.0\publish\C#.exe
-D:\Development\Pi-Monte-Carlo\C#\bin\Release\net6.0\publish\C#.dll
-D:\Development\Pi-Monte-Carlo\C#\bin\Release\net6.0\publish\C#.deps.json
-D:\Development\Pi-Monte-Carlo\C#\bin\Release\net6.0\publish\C#.runtimeconfig.json
-D:\Development\Pi-Monte-Carlo\C#\bin\Release\net6.0\publish\C#.pdb
