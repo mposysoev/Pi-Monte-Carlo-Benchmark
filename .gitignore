@@ -17,4 +17,4 @@ settings.gradle.kts
 *.exe
 /Clojure
 /C#/bin
-
+/C#/obj
