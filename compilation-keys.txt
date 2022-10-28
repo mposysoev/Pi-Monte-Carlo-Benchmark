@@ -18,4 +18,5 @@ Kotlin (JVM)		built from IDEA
 Julia				julia -O3 --math-mode=ieee <file_name>
 Python				python -OO <file_name>
 F#					dotnet build -c Release --no-self-contained
+Ruby				ruby <file_name>
 PowerShell			./<file_name>

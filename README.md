@@ -33,6 +33,7 @@ Future: do banchmark with bigger number of iterations and more accurate
 |18	| Julia 		| 520 			| 15.29		| -1		|
 |19	| Python 		| 525 			| 15.44		| +2 		|
 |20	| F# 			| 558.4 		| 16.42		| +0.25 	|
-|21	| PowerShell	| 112527		| 3309.61	| +0.5 =)	|
+|21 | Ruby 			| 702.5 		| 20.66		| +0.1 		|
+|22	| PowerShell	| 112527		| 3309.61	| +0.5 =)	|
 
 * -- Odin output 3.141. It seems that this language still doesn't have full support of float64 type. Required test after next release.
