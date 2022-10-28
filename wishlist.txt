@@ -1,4 +1,3 @@
-C#
 Ruby
 Haskell
 Jai
@@ -10,7 +9,6 @@ Scala
 Swift 
 R
 Wolfram Language
-F#
 Crystal
 Elm
 OCaml
@@ -28,7 +26,7 @@ PureScript
 Perl/Raku
 PHP
 Lean
-Coq?
+Coq
 Oberon
 Forth
 Smalltalk
