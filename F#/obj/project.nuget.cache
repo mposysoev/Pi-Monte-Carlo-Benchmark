@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EEdON0Ob6NDSvPkBm+tSBF9pBFwphdya5WDpp5F8MgMky+AmY3TiQVc11wGP1d6H0607landTqF42gn+QT0tEw==",
+  "success": true,
+  "projectFilePath": "D:\\programming\\MONTE_CARLO_DIFFERENT_LANGUAGES\\F#\\F#.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maxim\\.nuget\\packages\\fsharp.core\\6.0.6\\fsharp.core.6.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
