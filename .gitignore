@@ -18,3 +18,4 @@ settings.gradle.kts
 /Clojure
 /C#/bin
 /C#/obj
+/F#/obj
