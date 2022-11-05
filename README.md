@@ -30,10 +30,11 @@ Future: do banchmark with bigger number of iterations and more accurate
 |15	| Zig 			| 289 			| 8.5		| -2		|
 |16	| Java			| 298			| 8.76		| -2		|
 |17	| Kotlin (JVM)	| 328			| 9.64		| -2		|
-|18	| Julia 		| 520 			| 15.29		| -1		|
-|19	| Python 		| 525 			| 15.44		| +2 		|
-|20	| F# 			| 558.4 		| 16.42		| +0.25 	|
-|21 | Ruby 			| 702.5 		| 20.66		| +0.1 		|
-|22	| PowerShell	| 112527		| 3309.61	| +0.5 =)	|
+|18 | R 			| 501.7 		| 14.75		| 0 		|
+|19	| Julia 		| 520 			| 15.29		| -1		|
+|20	| Python 		| 525 			| 15.44		| +2 		|
+|21	| F# 			| 558.4 		| 16.42		| +0.25 	|
+|22 | Ruby 			| 702.5 		| 20.66		| +0.1 		|
+|23	| PowerShell	| 112527		| 3309.61	| +0.5 =)	|
 
 * -- Odin output 3.141. It seems that this language still doesn't have full support of float64 type. Required test after next release.
