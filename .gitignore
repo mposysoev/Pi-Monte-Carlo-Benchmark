@@ -22,4 +22,11 @@ F#/bin/
 F#/obj/
 F#/bin/Release/net6.0/F#.dll
 F#/bin/Release/net6.0/F#.pdb
+/C#/bin/
+/C#/obj/
+/F#/bin/
+/F#/obj/
+/F#/bin/Release/net6.0/F#.dll
+/F#/bin/Release/net6.0/F#.pdb
+
 

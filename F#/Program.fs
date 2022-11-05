@@ -1,22 +1,30 @@
-﻿
+﻿open System
+
+let InCircle x y =
+    x*x + y*y < 1.0
+
+let GetRandomPoint (rng : Random) =
+    rng.NextDouble(), rng.NextDouble()
+
+let CheckOnePoint counter rng =
+    let x,y = GetRandomPoint rng
+
+    match InCircle x y with
+    | true -> counter + 1
+    | false -> counter
+
+let CalculatePi numberOfIterations =
+    let rng = new Random()
+
+    let rec CalculatePi' numberOfIterations counter =
+        match numberOfIterations with
+        | 0 -> counter
+        | _ -> CalculatePi' (numberOfIterations - 1) (CheckOnePoint counter rng)
+
+    let totalCounter = CalculatePi' numberOfIterations 0
+
+    4. * double(totalCounter) / double(numberOfIterations)
 
 let numberOfIterations = 1000000
-
-let getRandomArray n = 
-    let rnd = System.Random()
-    List.init n (fun _ -> rnd.NextDouble ())
-
-let xs = getRandomArray numberOfIterations
-let ys = getRandomArray numberOfIterations
-
-
-let isCircle x y = x*x + y*y < 1.0
-
-let checkBool array1 array2 = (array1, array2) ||> List.map2 (fun x y -> isCircle x y)
-
-let sumBools input = input |> Seq.cast |> Seq.filter id |> Seq.length
-
-let resultOfCounter = sumBools (checkBool xs ys)
-
-let theResult = 4.0 * float(resultOfCounter) / float(numberOfIterations)
-printfn "%A" theResult
+let result = CalculatePi numberOfIterations
+printfn "%A" result
