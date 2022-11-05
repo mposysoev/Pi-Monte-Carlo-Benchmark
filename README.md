@@ -25,16 +25,17 @@ Future: do banchmark with bigger number of iterations and more accurate
 |10	| Pascal (Free)	| 93			| 2.73		| -0.5 		|
 |11	| Nim 			| 96 			| 2.82		| +0.5 		|
 |12	|Kotlin (Native)| 98			| 2.88		| +1 		|
-|13	|JS/TS (node.js)| 159			| 4.67		| +1 		|
-|14	| F# 			| 171.1 		| 5.03		| +0.25 	|
-|15	| Dart (exe)	| 198			| 5.82		| +1 		|
-|16	| Zig 			| 289 			| 8.5		| -2		|
-|17	| Java			| 298			| 8.76		| -2		|
-|18	| Kotlin (JVM)	| 328			| 9.64		| -2		|
-|19 | R 			| 501.7 		| 14.75		| 0 		|
-|20	| Julia 		| 520 			| 15.29		| -1		|
-|21	| Python 		| 525 			| 15.44		| +2 		|
-|22 | Ruby 			| 702.5 		| 20.66		| +0.1 		|
-|23	| PowerShell	| 112527		| 3309.61	| +0.5 =)	|
+|13 | Haskell		| 110			| 3.23		| -2 (-3)	|
+|14	|JS/TS (node.js)| 159			| 4.67		| +1 		|
+|15	| F# 			| 171.1 		| 5.03		| +0.25 	|
+|16	| Dart (exe)	| 198			| 5.82		| +1 		|
+|17	| Zig 			| 289 			| 8.5		| -2		|
+|18	| Java			| 298			| 8.76		| -2		|
+|19	| Kotlin (JVM)	| 328			| 9.64		| -2		|
+|20 | R 			| 501.7 		| 14.75		| 0 		|
+|21	| Julia 		| 520 			| 15.29		| -1		|
+|22	| Python 		| 525 			| 15.44		| +2 		|
+|23 | Ruby 			| 702.5 		| 20.66		| +0.1 		|
+|24	| PowerShell	| 112527		| 3309.61	| +0.5 =)	|
 
 * -- Odin output 3.141. It seems that this language still doesn't have full support of float64 type. Required test after next release.

@@ -10,13 +10,15 @@ C# 			dotnet build -c Release --no-self-contained
 Pascal			fpc -XXs -O3 -Ci- -Cr- -g- -CpCOREAVX -CfAVX <file_name>
 Nim			nim c --verbosity:0 -d:danger --passC:"-flto"  --passL:"-flto" --gc:arc <file-name>
 Kotlin (Native)		kotlinc -opt <file_name>, but better to compile from IDEA
+Haskell 		stack build
 JS/TS			node <file_name>
+F#			dotnet build -c Release --no-self-contained
 Dart			dart compile exe <file_name>
 Zig			zig build-exe -OReleaseFast <file_name>
 Java			built from IDEA
 Kotlin (JVM)		built from IDEA
+R			rscript <file_name>
 Julia			julia -O3 --math-mode=ieee <file_name>
 Python			python -OO <file_name>
-F#			dotnet build -c Release --no-self-contained
 Ruby			ruby <file_name>
 PowerShell		./<file_name>

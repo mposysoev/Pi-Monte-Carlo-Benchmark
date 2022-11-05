@@ -1,4 +1,3 @@
-Haskell
 Clojure (in progress...)
 Elixir
 Scala
