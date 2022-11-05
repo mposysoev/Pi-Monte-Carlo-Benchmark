@@ -1,4 +1,3 @@
-R
 Haskell
 Clojure (in progress...)
 Elixir

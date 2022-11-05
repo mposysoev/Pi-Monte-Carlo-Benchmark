@@ -7,3 +7,25 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
+
+[profile.release]
+opt-level = 3
+debug = false
+split-debuginfo = '...'
+debug-assertion = false
+overflow-checks = false
+lto = 'fat'
+panic = 'abort'
+incremental = false
+codegen-unlits = 1
+rpath = false
+
+[profile.release.package."*"]
+opt-level = 3
+codegen-units = 1
+
+[profile.release.build-override]
+opt-level = 3
+codegen-units = 1
+
+

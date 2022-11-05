@@ -1,22 +1,22 @@
-Odin 				odin build <file_name> -file -opt:3
-Rust                rustc -C debuginfo=0 -C opt-level=3 -C target-cpu=native -C lto=fat -C codegen-units=1 -C panic=abort <file_name>
-D                   ldc2.exe -O3 -release -mcpu=native -march=x86-64 -flto=full -static -ffast-math <file_name>
-C                   gcc <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math
-V 					v <file_name> (-prod doesn't work)
-C++                 g++ <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math
-Go                  go build <file_name>
-Fortran             ifort -O3 -march=native -ipo -static -qopenmp <file_name>
-C# 					dotnet build -c Release --no-self-contained
-Pascal              fpc -XXs -O3 -Ci- -Cr- -g- -CpCOREAVX -CfAVX <file_name>
-Nim					nim c --verbosity:0 -d:danger --passC:"-flto"  --passL:"-flto" --gc:arc <file-name>
+Odin			odin build <file_name> -file -opt:3
+Rust			cargo build --release , but custom release profile in cargo.toml
+D			ldc2.exe -O3 -release -mcpu=native -march=x86-64 -flto=full -static -ffast-math <file_name>
+C			gcc <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math
+V			v <file_name> (-prod doesn't work)
+C++			g++ <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math
+Go			go build <file_name>
+Fortran			ifort -O3 -march=native -ipo -static -qopenmp <file_name>
+C# 			dotnet build -c Release --no-self-contained
+Pascal			fpc -XXs -O3 -Ci- -Cr- -g- -CpCOREAVX -CfAVX <file_name>
+Nim			nim c --verbosity:0 -d:danger --passC:"-flto"  --passL:"-flto" --gc:arc <file-name>
 Kotlin (Native)		kotlinc -opt <file_name>, but better to compile from IDEA
-JS/TS				node <file_name>
-Dart				dart compile exe <file_name>
-Zig					zig build-exe -OReleaseFast <file_name>
-Java				built from IDEA
+JS/TS			node <file_name>
+Dart			dart compile exe <file_name>
+Zig			zig build-exe -OReleaseFast <file_name>
+Java			built from IDEA
 Kotlin (JVM)		built from IDEA
-Julia				julia -O3 --math-mode=ieee <file_name>
-Python				python -OO <file_name>
-F#					dotnet build -c Release --no-self-contained
-Ruby				ruby <file_name>
-PowerShell			./<file_name>
+Julia			julia -O3 --math-mode=ieee <file_name>
+Python			python -OO <file_name>
+F#			dotnet build -c Release --no-self-contained
+Ruby			ruby <file_name>
+PowerShell		./<file_name>
