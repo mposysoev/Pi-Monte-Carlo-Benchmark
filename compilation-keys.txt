@@ -1,3 +1,4 @@
+Zig			zig build-exe -OReleaseFast <file_name>
 Odin			odin build <file_name> -file -opt:3
 Rust			cargo build --release , but custom release profile in cargo.toml
 D			ldc2.exe -O3 -release -mcpu=native -march=x86-64 -flto=full -static -ffast-math <file_name>
@@ -14,7 +15,6 @@ Haskell 		stack build
 JS/TS			node <file_name>
 F#			dotnet build -c Release --no-self-contained
 Dart			dart compile exe <file_name>
-Zig			zig build-exe -OReleaseFast <file_name>
 Java			built from IDEA
 Kotlin (JVM)		built from IDEA
 R			rscript <file_name>
