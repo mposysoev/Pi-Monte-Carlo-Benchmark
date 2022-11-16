@@ -14,8 +14,9 @@ def calculate_pi(n):
 
 
 def main():
-    number_of_itteration = 1_000_000
-    print(calculate_pi(number_of_itteration))
+    number_of_iterations = 1_000_000
+    result = calculate_pi(number_of_iterations)
+    print(result)
 
 
 if __name__ == "__main__":

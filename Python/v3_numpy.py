@@ -1,21 +1,22 @@
 import numpy as np
 
 
-def calculate_pi(n: int) -> float:
-    rng = np.random.default_rng(12345)
-    count = 0
-    for i in range(n):
+def calculate_pi(n):
+    rng = np.random.default_rng()
+    count = 0.0
+    for _ in range(n):
         x = rng.random()
         y = rng.random()
-        if x * x + y * y < 1:
-            count += 1
+        if x * x + y * y < 1.0:
+            count += 1.0
 
-    return 4 * count / n
+    return 4.0 * count / n
 
 
 def main():
-    number_of_itteration = 1_000_000
-    print(calculate_pi(number_of_itteration))
+    number_of_iterations = 1_000_000
+    result = calculate_pi(number_of_iterations)
+    print(result)
 
 
 if __name__ == "__main__":

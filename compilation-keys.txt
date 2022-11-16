@@ -17,8 +17,8 @@ F#			dotnet build -c Release --no-self-contained
 Dart			dart compile exe <file_name>
 Java			built from IDEA
 Kotlin (JVM)		built from IDEA
+Python			python -OO <file_name>
 R			rscript <file_name>
 Julia			julia -O3 --math-mode=ieee <file_name>
-Python			python -OO <file_name>
 Ruby			ruby <file_name>
 PowerShell		./<file_name>

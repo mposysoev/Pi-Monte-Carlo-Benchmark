@@ -31,9 +31,9 @@ All benchmarks made with different random engines. It's more comparison of imple
 | 17  | Dart (exe)      | 198         | 5.82    | +1         |
 | 18  | Java            | 298         | 8.76    | -2         |
 | 19  | Kotlin (JVM)    | 328         | 9.64    | -2         |
-| 20  | R               | 501.7       | 14.75   | 0          |
-| 21  | Julia           | 520         | 15.29   | -1         |
-| 22  | Python          | 525         | 15.44   | +2         |
+| 20  | Python (v1)     | 460         | 13.53   | +2         |
+| 21  | R               | 501.7       | 14.75   | 0          |
+| 22  | Julia           | 520         | 15.29   | -1         |
 | 23  | Ruby            | 702.5       | 20.66   | +0.1       |
 | 24  | PowerShell      | 112527      | 3309.61 | +0.5 =)    |
 

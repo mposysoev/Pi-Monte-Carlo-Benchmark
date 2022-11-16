@@ -3,16 +3,19 @@ from numba import jit
 
 
 @jit(nopython=True)
-def calculate_pi(n: int) -> float:
-    x = np.random.rand(1, n)
-    y = np.random.rand(1, n)
-    count = len(np.where(x * x + y * y < 1)[1])
-    return 4 * count / n
+def calculate_pi(n):
+    rng = np.random.default_rng()
+    x = rng.random(n)
+    y = rng.random(n)
+    count = np.sum(x * x + y * y < 1.0)
+
+    return 4.0 * count / n
 
 
 def main():
-    number_of_itteration = 1_000_000
-    print(calculate_pi(number_of_itteration))
+    number_of_iterations = 1_000_000
+    result = calculate_pi(number_of_iterations)
+    print(result)
 
 
 if __name__ == "__main__":
