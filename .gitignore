@@ -15,6 +15,8 @@ settings.gradle.kts
 /zig-out
 /zig-cache
 *.exe
+*.pdb
+*.obj
 /Clojure
 C#/bin/
 C#/obj/
