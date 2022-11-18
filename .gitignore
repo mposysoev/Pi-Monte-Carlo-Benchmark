@@ -31,5 +31,7 @@ F#/bin/Release/net6.0/F#.pdb
 /F#/bin/Release/net6.0/F#.dll
 /F#/bin/Release/net6.0/F#.pdb
 Haskell/.stack-work/
+Beef/build
+Beef/recovery
 
 
