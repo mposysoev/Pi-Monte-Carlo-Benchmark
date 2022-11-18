@@ -1,13 +1,13 @@
 FileVersion = 1
-LastConfig = "Release"
+LastConfig = "Paranoid"
 LastPlatform = "Win64"
 RecentFilesList = ["src\\main.bf"]
 
 [MainWindow]
-X = 303
-Y = 87
-Width = 1314
-Height = 986
+X = 377
+Y = 77
+Width = 1166
+Height = 875
 ShowKind = "Maximized"
 
 [MainDockingFrame]
@@ -22,7 +22,7 @@ Type = "TabbedView"
 [[MainDockingFrame.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Workspace"
-TabWidth = 115.0
+TabWidth = 111.6
 Type = "ProjectPanel"
 
 [[MainDockingFrame.DockedWidgets]]
@@ -44,7 +44,7 @@ Type = "TabbedView"
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "main.bf"
-TabWidth = 83.0
+TabWidth = 71.6
 Type = "SourceViewPanel"
 FilePath = "src\\main.bf"
 CursorPos = 15
@@ -65,21 +65,21 @@ Type = "TabbedView"
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Memory"
-TabWidth = 99.0
+TabWidth = 97.2
 Type = "MemoryPanel"
 AutoResize = "Auto_Mul8"
 RequestedWidth = 300.0
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Watch"
-TabWidth = 86.0
+TabWidth = 85.2
 Type = "WatchPanel"
 Columns = [{Width = 200.0}, {Width = 200.0}, {Width = 200.0}]
 Items = [""]
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Auto"
-TabWidth = 77.0
+TabWidth = 76.4
 Type = "AutoWatchPanel"
 Columns = [{Width = 200.0}, {Width = 200.0}, {Width = 200.0}]
 
@@ -91,23 +91,23 @@ Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Threads"
-TabWidth = 97.0
+TabWidth = 94.0
 Type = "ThreadPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Call Stack"
-TabWidth = 105.0
+TabWidth = 103.6
 Type = "CallStackPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Immediate"
-TabWidth = 111.0
+TabWidth = 109.2
 Type = "ImmediatePanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Output"
-TabWidth = 90.0
+TabWidth = 89.2
 Type = "OutputPanel"
 
 [[BookmarkFolders]]

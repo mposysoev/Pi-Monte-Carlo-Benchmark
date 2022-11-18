@@ -1,10 +1,11 @@
 Zig			zig build-exe -OReleaseFast <file_name>
 Odin			odin build <file_name> -file -opt:3
 Rust			cargo build --release , but custom release profile in cargo.toml
+Beef            build release version from BeefIDE
+C++			g++ <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math -ffast-math
 D			ldc2.exe -O3 -release -mcpu=native -march=x86-64 -flto=full -static -ffast-math <file_name>
 C			gcc <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math -ffast-math
 V			v <file_name> (-prod doesn't work)
-C++			g++ <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math -ffast-math
 Go			go build <file_name>
 Fortran			ifort -O3 -march=native -ipo -static -qopenmp <file_name>
 C# 			dotnet build -c Release --no-self-contained
