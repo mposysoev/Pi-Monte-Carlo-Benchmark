@@ -6,7 +6,7 @@ fun calculatePi(n: Int): Double {
     for (i in 0..n) {
         val x = Random.nextDouble()
         val y = Random.nextDouble()
-        if (x * x + y * y < 1) {
+        if (x * x + y * y < 1.0) {
             counter += 1
         }
     }

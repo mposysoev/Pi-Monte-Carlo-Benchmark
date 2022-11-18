@@ -15,18 +15,18 @@ double calculate_pi(int n)
         x = (double)(rand()) / ((double)(RAND_MAX));
         y = (double)(rand()) / ((double)(RAND_MAX));
 
-        if (x * x + y * y < 1)
+        if (x * x + y * y < 1.0)
         {
             counter = counter + 1;
         }
     }
-    return (double)4 * (double)counter / (double)n;
+    return 4.0 * (double)counter / (double)n;
 }
 
 int main()
 {
-    int number_of_iteration = 1000000;
-    double result = calculate_pi(number_of_iteration);
+    int number_of_iterations = 1000000;
+    double result = calculate_pi(number_of_iterations);
     printf("%f", result);
 
     return 0;

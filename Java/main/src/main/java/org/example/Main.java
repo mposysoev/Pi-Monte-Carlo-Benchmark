@@ -10,7 +10,7 @@ public class Main {
             double x = r.nextDouble();
             double y = r.nextDouble();
 
-            if (x * x + y * y < 1) {
+            if (x * x + y * y < 1.0) {
                 counter += 1;
             }
         }

@@ -9,16 +9,16 @@ calculate_pi :: proc(n: i32) -> f64{
         x: f64 = rand.float64()
         y: f64 = rand.float64()
         
-        if x*x + y*y < 1 {
+        if x*x + y*y < 1.0 {
             counter += 1
         }
     }
-    return 4 * cast(f64)counter / cast(f64)n 
+    return 4.0 * cast(f64)counter / cast(f64)n 
 }
 
 main :: proc() {
-    number_of_iteration: i32 = 1000000
-    result: f64 = calculate_pi(number_of_iteration)
+    number_of_iterations: i32 = 1000000
+    result: f64 = calculate_pi(number_of_iterations)
 
 	fmt.println(result)
 }

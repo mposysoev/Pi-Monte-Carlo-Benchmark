@@ -7,7 +7,7 @@ fn calculate_pi(n i64) f64 {
     for _ in 0..n {
         x := rand.f64()
         y := rand.f64()
-        if x*x + y*y < 1 {
+        if x*x + y*y < 1.0 {
             count += 1
         }
     }
@@ -16,6 +16,6 @@ fn calculate_pi(n i64) f64 {
 }
 
 fn main() {
-    number_of_iteration := 1_000_000
-    println(calculate_pi(number_of_iteration))
+    number_of_iterations := 1_000_000
+    println(calculate_pi(number_of_iterations))
 }

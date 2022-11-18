@@ -1,4 +1,3 @@
-
 def calculate_pi(n)
     counter = 0
 
@@ -13,7 +12,6 @@ def calculate_pi(n)
 
     4.0 * counter / n
 end
-
 
 
 number_of_iterations = 1000000

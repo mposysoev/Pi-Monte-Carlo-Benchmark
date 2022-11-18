@@ -2,7 +2,7 @@ program pimc;
 
 var
     result: double;
-    number_of_iteration: int64 = 1000000;
+    number_of_iterations: int64 = 1000000;
 
 function calculate_pi(n: int64) : double;
 var
@@ -15,14 +15,14 @@ begin
         begin
             x := random;
             y := random;
-            if x*x+y*y < 1 then
+            if x*x+y*y < 1.0 then
             begin
                 counter := counter + 1;
             end;
             i := i + 1;
         end;
         
-    calculate_pi := 4 * counter / n;
+    calculate_pi := 4.0 * counter / n;
 end;
 
 
@@ -30,7 +30,7 @@ begin
 
 
 
-result := calculate_pi(number_of_iteration);
+result := calculate_pi(number_of_iterations);
 
 writeln(result);
 

@@ -13,7 +13,7 @@ double calculate_pi(int n) {
 }
 
 void main() {
-  int number_of_iteration = 1000000;
-  var result = calculate_pi(number_of_iteration);
+  int number_of_iterations = 1000000;
+  var result = calculate_pi(number_of_iterations);
   print(result);
 }

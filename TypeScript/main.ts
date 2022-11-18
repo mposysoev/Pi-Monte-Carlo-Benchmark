@@ -4,7 +4,7 @@ function calculate_pi(n: number) {
       var x: number = Math.random();
       var y: number = Math.random();
   
-      if (x * x + y * y < 1) {
+      if (x * x + y * y < 1.0) {
         counter += 1;
       }
     }
@@ -12,8 +12,8 @@ function calculate_pi(n: number) {
   }
   
   function main() {
-    var number_of_iteration: number = 1000000;
-    var result: number = calculate_pi(number_of_iteration);
+    var number_of_iterations: number = 1000000;
+    var result: number = calculate_pi(number_of_iterations);
     console.log(result);
   }
   

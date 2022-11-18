@@ -12,20 +12,20 @@ double calculate_pi(int n)
         double x = uniform(0.0f, 1.0f, rnd);
         double y = uniform(0.0f, 1.0f, rnd);
 
-        if (x * x + y * y < 1)
+        if (x * x + y * y < 1.0)
         {
             counter += 1;
         }
     }
 
-    return to!double(4) * to!double(counter) / to!double(n);
+    return 4.0 * to!double(counter) / to!double(n);
 }
 
 void main()
 {
-    int number_of_iteration = 1_000_000;
+    int number_of_iterations = 1_000_000;
 
-    double result = calculate_pi(number_of_iteration);
+    double result = calculate_pi(number_of_iterations);
 
     writeln(result);
 }
