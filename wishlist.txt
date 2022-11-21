@@ -31,3 +31,8 @@ Pony lang
 Modula-2
 Nemerle
 Standart ML
+C2
+C3
+Nelua
+Jakt
+Roand
