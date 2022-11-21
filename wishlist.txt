@@ -16,7 +16,7 @@ PHP
 Scheme
 Jai
 Prolog
-Assembly
+Assembly (Fasm, Nasm, Gas)
 Chapel
 Racket
 Mercury
