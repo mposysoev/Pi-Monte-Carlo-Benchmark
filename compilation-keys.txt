@@ -1,25 +1,26 @@
+Nim			nim c --verbosity:0 -d:danger --passC:"-flto"  --passL:"-flto" --gc:arc <file-name>
 Zig			zig build-exe -OReleaseFast <file_name>
+Crystal     crystal build <file_name> --release
 Odin			odin build <file_name> -file -opt:3
 Rust			cargo build --release , but custom release profile in cargo.toml
-Beef            build release version from BeefIDE
-C++			g++ <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math -ffast-math
 D			ldc2.exe -O3 -release -mcpu=native -march=x86-64 -flto=full -static -ffast-math <file_name>
-C			gcc <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math -ffast-math
+C++			g++ <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math -ffast-math
 V			v <file_name> (-prod doesn't work)
-Go			go build <file_name>
+Beef            build release version from BeefIDE
 Fortran			ifort -O3 -march=native -ipo -static -qopenmp <file_name>
-C# 			dotnet build -c Release --no-self-contained
-Pascal			fpc -XXs -O3 -Ci- -Cr- -g- -CpCOREAVX -CfAVX <file_name>
-Nim			nim c --verbosity:0 -d:danger --passC:"-flto"  --passL:"-flto" --gc:arc <file-name>
-Kotlin (Native)		kotlinc -opt <file_name>, but better to compile from IDEA
 Haskell 		stack build
+C			gcc <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math -ffast-math
+Go			go build <file_name>
+Pascal			fpc -XXs -O3 -Ci- -Cr- -g- -CpCOREAVX -CfAVX <file_name>
+C# 			dotnet build -c Release --no-self-contained
+Kotlin (Native)		kotlinc -opt <file_name>, but better to compile from IDEA
+Dart			dart compile exe <file_name>
 JS/TS			node <file_name>
 F#			dotnet build -c Release --no-self-contained
-Dart			dart compile exe <file_name>
 Java			built from IDEA
 Kotlin (JVM)		built from IDEA
 Python			python -OO <file_name>
-R			rscript <file_name>
 Julia			julia -O3 --math-mode=ieee <file_name>
+R			rscript <file_name>
 Ruby			ruby <file_name>
 PowerShell		./<file_name>
