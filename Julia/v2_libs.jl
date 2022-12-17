@@ -2,7 +2,7 @@ using RandomNumbers
 
 function calculate_pi(n, rng)
     counter = 0
-    @fastmath @inbounds @simd for i = 0:n
+    @fastmath @inbounds for i = 0:n
         x = rand(rng)
         y = rand(rng)
         if x * x + y * y < 1.0
