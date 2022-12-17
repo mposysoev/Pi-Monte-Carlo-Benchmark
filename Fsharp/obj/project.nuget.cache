@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "up8ZPipkpIv1QXbwXta3ZoPllglmwCtCESFyh1EPX35KQiwK6tOD9ZGuJzGs+HS+5izeakqEv70JwUG0wRyTkw==",
+  "success": true,
+  "projectFilePath": "/home/maxim/Development/Pi-Monte-Carlo/Fsharp/Fsharp.fsproj",
+  "expectedPackageFiles": [
+    "/home/maxim/.nuget/packages/fsharp.core/7.0.0/fsharp.core.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

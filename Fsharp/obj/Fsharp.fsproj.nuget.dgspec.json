@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/maxim/Development/Pi-Monte-Carlo/Fsharp/Fsharp.fsproj": {}
+  },
+  "projects": {
+    "/home/maxim/Development/Pi-Monte-Carlo/Fsharp/Fsharp.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/maxim/Development/Pi-Monte-Carlo/Fsharp/Fsharp.fsproj",
+        "projectName": "Fsharp",
+        "projectPath": "/home/maxim/Development/Pi-Monte-Carlo/Fsharp/Fsharp.fsproj",
+        "packagesPath": "/home/maxim/.nuget/packages/",
+        "outputPath": "/home/maxim/Development/Pi-Monte-Carlo/Fsharp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/maxim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/home/maxim/.dotnet/sdk/7.0.101/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/maxim/.dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

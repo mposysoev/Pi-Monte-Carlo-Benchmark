@@ -1,0 +1,15 @@
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/bin/Release/net7.0/Csharp
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/bin/Release/net7.0/Csharp.deps.json
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/bin/Release/net7.0/Csharp.runtimeconfig.json
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/bin/Release/net7.0/Csharp.dll
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/bin/Release/net7.0/Csharp.pdb
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/obj/Release/net7.0/Csharp.csproj.AssemblyReference.cache
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/obj/Release/net7.0/Csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/obj/Release/net7.0/Csharp.AssemblyInfoInputs.cache
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/obj/Release/net7.0/Csharp.AssemblyInfo.cs
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/obj/Release/net7.0/Csharp.csproj.CoreCompileInputs.cache
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/obj/Release/net7.0/Csharp.dll
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/obj/Release/net7.0/refint/Csharp.dll
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/obj/Release/net7.0/Csharp.pdb
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/obj/Release/net7.0/Csharp.genruntimeconfig.cache
+/home/maxim/Development/Pi-Monte-Carlo/Csharp/obj/Release/net7.0/ref/Csharp.dll
