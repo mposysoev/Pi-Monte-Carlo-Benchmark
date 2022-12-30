@@ -23,4 +23,5 @@ Python			python -OO <file_name>
 Julia			julia -O3 --math-mode=ieee <file_name>
 R			rscript <file_name>
 Ruby			ruby <file_name>
+Elixir          elixir main.ex
 PowerShell		./<file_name>
