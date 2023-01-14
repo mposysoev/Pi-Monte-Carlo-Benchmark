@@ -41,7 +41,9 @@ All benchmarks made with different random engines. It's more comparison of imple
 | 27 | PowerShell    | ps6                | 112527            | 15206.35 | :smile:              |
 
 \* -- Odin output 3.141 (only 3 digits after point). It seems that this language still doesn't have full support of float64 type. Required test after next release
+
 \*\* -- includes time of compilation which is big in comparison with execution time. Actually Julia has to be upper in t his table, maybe top 5. Required test bigger number of iterations
+
 \*\*\* -- very different result in Linux and in Windows
 
 ## Explanation
