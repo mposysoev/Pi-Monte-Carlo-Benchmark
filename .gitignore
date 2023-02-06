@@ -35,4 +35,5 @@ Beef/build
 Beef/recovery
 *.o
 *.out
-
+Ada/main
+Ada/main.ali
