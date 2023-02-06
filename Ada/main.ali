@@ -1,0 +1,79 @@
+V "GNAT Lib v12"
+M P W=b
+A -O3
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+
+U main%b		main.adb		e7f67348 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+
+D ada.ads		20230115164210 76789da1 ada%s
+D a-except.ads		20230115164210 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20230115164210 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20230115164210 84bea7a3 ada.numerics%s
+D a-nuflra.ads		20230115164210 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20230115164210 119b8fb3 ada.streams%s
+D a-string.ads		20230115164210 90ac6797 ada.strings%s
+D a-sttebu.ads		20230115164210 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20230115164210 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20230115164210 9eaa38c6 ada.tags%s
+D a-textio.ads		20230115164210 deada98a ada.text_io%s
+D a-unccon.ads		20230115164210 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230115164210 edec285f interfaces%s
+D i-cstrea.ads		20230115164210 e53d8b8e interfaces.c_streams%s
+D main.adb		20230206105519 790d71b8 main%b
+D system.ads		20230115164210 a2da961d system%s
+D s-crtl.ads		20230115164210 8a0692f8 system.crtl%s
+D s-exctab.ads		20230115164210 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230115164210 dc5161d4 system.file_control_block%s
+D s-imager.ads		20230115164210 500b11a9 system.image_r%s
+D s-imageu.ads		20230115164210 525c30c6 system.image_u%s
+D s-imgflt.ads		20230115164210 78689de8 system.img_flt%s
+D s-imguns.ads		20230115164210 0e4da2ac system.img_uns%s
+D s-parame.ads		20230115164210 d494a4a6 system.parameters%s
+D s-powflt.ads		20230115164210 d8ff1a45 system.powten_flt%s
+D s-putima.ads		20230115164210 4e095881 system.put_images%s
+D s-rannum.ads		20230115164210 95815eca system.random_numbers%s
+D s-secsta.ads		20230115164210 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20230115164210 df77073e system.soft_links%s
+D s-stache.ads		20230115164210 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230115164210 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230115164210 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20230115164210 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230115164210 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230115164210 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20230115164210 d9032363 system.wch_con%s
+D unchconv.ads		20230115164210 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 6 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r23 2r6 2r37
+X 4 a-numeri.ads
+16K13*Numerics 35e17 15|2r10 2r41
+X 5 a-nuflra.ads
+41K22*Float_Random 74e30 15|2w19 2r50
+47R9*Generator<27|65R9> 15|7r22
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<27|73p13> 15|15s12 15s45
+X 11 a-textio.ads
+58K13*Text_IO 727e16 15|1w10 1r27
+507U14*Put_Line 15|25s3 27s3
+X 15 main.adb
+6U11*main 6b11 28l5 28t9
+7r3 Random_Generator{5|47R9} 15r20 15r53
+8i3 Number_Of_Iteration{integer} 24m9 26r26
+9f3 Result{float} 26m3 27r24
+11V12 Calculate_Pi{float} 11b12 11>26 20l9 20t21 26s13
+11i26 Number_Of_Iteration{integer} 14r27 19r43
+12i5 Counter{integer} 16m11 16r22 19r26
+14i11 Iteration{integer}
+
