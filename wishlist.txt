@@ -1,17 +1,13 @@
 Clojure (in progress...)
-Elixir
 Scala
 Common Lisp
 Perl/Raku
 Swift 
-Crystal
 OCaml
 Idris
-Beef
 Erlang
 Wolfram Language
 Elm
-Ada
 PHP
 Scheme
 Jai
