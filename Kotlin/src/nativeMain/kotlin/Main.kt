@@ -15,7 +15,7 @@ fun calculatePi(n: Int): Double {
 
 
 fun main() {
-    val numberOfIterations = 1_000_000
+    val numberOfIterations = 1_000_000_000
     val result = calculatePi(numberOfIterations)
     println(result)
 }

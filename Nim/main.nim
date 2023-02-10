@@ -15,7 +15,7 @@ proc calculate_pi(n: int): float =
 
 
 proc main() =
-  var number_of_iterations: int = 1_000_000
+  var number_of_iterations: int = 1_000_000_000
   echo calculate_pi(number_of_iterations)
 
 

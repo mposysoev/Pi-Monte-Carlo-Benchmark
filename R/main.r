@@ -5,6 +5,6 @@ calculation_pi <- function(n) {
     return(4.0 * counter / n)
 }
 
-number_of_iterations <- 1000000
+number_of_iterations <- 1000000000
 result <- calculation_pi(number_of_iterations)
 print(result)

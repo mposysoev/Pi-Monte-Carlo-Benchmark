@@ -22,7 +22,7 @@ pub fn calculate_pi(n: usize) f64 {
 }
 
 pub fn main() void {
-    const number_of_iterations: usize = 1_000_000;
+    const number_of_iterations: usize = 1_000_000_000;
     var result: f64 = calculate_pi(number_of_iterations);
     print("{d} \n", .{result});
 }

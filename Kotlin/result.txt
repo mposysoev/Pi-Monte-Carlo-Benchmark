@@ -1,0 +1,4 @@
+Benchmark 1: ./program.kexe
+  Time (mean ± σ):     106.068 s ±  0.010 s    [User: 105.955 s, System: 0.005 s]
+  Range (min … max):   106.059 s … 106.083 s    5 runs
+ 

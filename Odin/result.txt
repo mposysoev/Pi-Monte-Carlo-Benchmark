@@ -1,0 +1,4 @@
+Benchmark 1: ./main.bin
+  Time (mean ± σ):     20.565 s ±  0.014 s    [User: 20.542 s, System: 0.002 s]
+  Range (min … max):   20.548 s … 20.589 s    10 runs
+ 

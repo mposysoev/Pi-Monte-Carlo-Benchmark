@@ -16,6 +16,6 @@ fn calculate_pi(n i64) f64 {
 }
 
 fn main() {
-    number_of_iterations := 1_000_000
+    number_of_iterations := 1_000_000_000
     println(calculate_pi(number_of_iterations))
 }

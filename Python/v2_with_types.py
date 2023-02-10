@@ -12,7 +12,7 @@ def calculate_pi(n: int) -> float:
 
 
 def main():
-    number_of_iterations = 1_000_000
+    number_of_iterations = 1_000_000_000
     result = calculate_pi(number_of_iterations)
     print(result)
 

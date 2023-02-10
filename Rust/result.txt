@@ -1,0 +1,4 @@
+Benchmark 1: ./target/release/Rust
+  Time (mean ± σ):     20.935 s ±  0.056 s    [User: 20.673 s, System: 0.240 s]
+  Range (min … max):   20.901 s … 21.092 s    10 runs
+ 

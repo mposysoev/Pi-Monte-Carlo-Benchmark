@@ -1,6 +1,6 @@
 program pimc
     implicit none
-    integer :: number_of_iteration = 1000000
+    integer :: number_of_iteration = 1000000000
     double precision :: counter = 0.0
     double precision :: x, y, result
     integer :: i

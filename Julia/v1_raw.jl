@@ -12,7 +12,7 @@ end
 
 
 function main()
-    number_of_iterations = 1_000_000
+    number_of_iterations = 1_000_000_000
     result = calculate_pi(number_of_iterations)
     println(result)
 end

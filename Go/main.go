@@ -23,7 +23,7 @@ func calculate_pi(n int) float64 {
 }
 
 func main() {
-	var number_of_iterations int = 1_000_000
+	var number_of_iterations int = 1_000_000_000
 	var result float64 = calculate_pi(number_of_iterations)
 	fmt.Println(result)
 }

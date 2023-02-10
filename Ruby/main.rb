@@ -14,7 +14,7 @@ def calculate_pi(n)
 end
 
 
-number_of_iterations = 1000000
+number_of_iterations = 1000000000
 result = calculate_pi number_of_iterations
 
 puts result

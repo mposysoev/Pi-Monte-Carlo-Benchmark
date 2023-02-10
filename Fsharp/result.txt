@@ -1,0 +1,4 @@
+Benchmark 1: ./bin/Release/net7.0/Fsharp
+  Time (mean ± σ):     25.858 s ±  1.214 s    [User: 25.744 s, System: 0.064 s]
+  Range (min … max):   25.438 s … 29.309 s    10 runs
+ 

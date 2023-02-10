@@ -16,7 +16,7 @@ fn calculate_pi(n: usize) -> f64 {
 }
 
 fn main() {
-    let number_of_itteration: usize = 1_000_000;
-    let result = calculate_pi(number_of_itteration);
+    let number_of_iterations: usize = 1_000_000_000;
+    let result = calculate_pi(number_of_iterations);
     println!("{:}", result);
 }

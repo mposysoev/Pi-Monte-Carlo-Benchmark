@@ -23,7 +23,7 @@ double calculate_pi(int n)
 
 void main()
 {
-    int number_of_iterations = 1_000_000;
+    int number_of_iterations = 1_000_000_000;
 
     double result = calculate_pi(number_of_iterations);
 

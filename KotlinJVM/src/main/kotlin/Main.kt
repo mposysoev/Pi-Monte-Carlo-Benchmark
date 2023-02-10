@@ -15,7 +15,7 @@ fun calculatePi(n: Int): Double {
 
 
 fun main(args: Array<String>) {
-    var numberOfIterations = 1_000_000
+    var numberOfIterations = 1_000_000_000
     var result = calculatePi(numberOfIterations)
     println(result)
 }

@@ -1,0 +1,4 @@
+Benchmark 1: python3.11 v2_with_types.py
+  Time (mean ± σ):     297.379 s ±  5.048 s    [User: 297.063 s, System: 0.017 s]
+  Range (min … max):   293.809 s … 300.949 s    2 runs
+ 

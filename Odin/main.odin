@@ -17,7 +17,7 @@ calculate_pi :: proc(n: i32) -> f64{
 }
 
 main :: proc() {
-    number_of_iterations: i32 = 1000000
+    number_of_iterations: i32 = 1000000000
     result: f64 = calculate_pi(number_of_iterations)
 
 	fmt.println(result)

@@ -1,0 +1,11 @@
+Benchmark 1: julia -O3 --math-mode=ieee v1_raw.jl
+  Time (mean ± σ):      8.211 s ±  0.007 s    [User: 8.109 s, System: 0.093 s]
+  Range (min … max):    8.203 s …  8.226 s    10 runs
+ 
+Benchmark 2: julia -O3 --math-mode=ieee v2_libs.jl
+  Time (mean ± σ):      6.343 s ±  0.010 s    [User: 6.241 s, System: 0.091 s]
+  Range (min … max):    6.329 s …  6.358 s    10 runs
+ 
+Summary
+  'julia -O3 --math-mode=ieee v2_libs.jl' ran
+    1.29 ± 0.00 times faster than 'julia -O3 --math-mode=ieee v1_raw.jl'

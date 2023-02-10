@@ -19,7 +19,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        int numberOfIterations = 1_000_000;
+        int numberOfIterations = 1_000_000_000;
         double result = calculatePi(numberOfIterations);
         System.out.println(result);
     }

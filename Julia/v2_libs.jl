@@ -15,7 +15,7 @@ end
 
 function main()
     rng_xor = RandomNumbers.Xorshifts.Xoroshiro128Plus()
-    number_of_iterations = 1_000_000
+    number_of_iterations = 1_000_000_000
     result = calculate_pi(number_of_iterations, rng_xor)
     println(result)
 end

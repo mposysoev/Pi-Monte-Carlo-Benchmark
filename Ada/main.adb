@@ -20,9 +20,7 @@ procedure main is
     end Calculate_Pi;
 
 begin	 
-
-	Number_Of_Iteration := 1_000_000_000;
-  Put_Line("The result for Pi number is equal: ");
+  Number_Of_Iteration := 1_000_000_000;
   Result := Calculate_Pi(Number_Of_Iteration);
   Put_Line(Float'Image(Result));
 end main;

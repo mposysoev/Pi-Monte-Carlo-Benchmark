@@ -1,0 +1,4 @@
+Benchmark 1: /home/maxim/.jdks/openjdk-19.0.1/bin/java -javaagent:/usr/share/idea/lib/idea_rt.jar=46739:/usr/share/idea/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /home/maxim/Development/Pi-Monte-Carlo/KotlinJVM/out/production/KotlinJVM:/home/maxim/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.7.10/kotlin-stdlib-jdk8-1.7.10.jar:/home/maxim/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.7.10/kotlin-stdlib-1.7.10.jar:/home/maxim/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.10/kotlin-stdlib-common-1.7.10.jar:/home/maxim/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/maxim/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.7.10/kotlin-stdlib-jdk7-1.7.10.jar MainKt
+  Time (mean ± σ):     80.870 s ±  0.097 s    [User: 80.891 s, System: 0.053 s]
+  Range (min … max):   80.804 s … 81.130 s    10 runs
+ 

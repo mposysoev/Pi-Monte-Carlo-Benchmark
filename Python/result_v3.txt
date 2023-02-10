@@ -1,0 +1,4 @@
+Benchmark 1: python3.11 v3_numpy.py
+  Time (mean ± σ):     1800.462 s ±  3.345 s    [User: 1798.349 s, System: 0.376 s]
+  Range (min … max):   1798.096 s … 1802.828 s    2 runs
+ 

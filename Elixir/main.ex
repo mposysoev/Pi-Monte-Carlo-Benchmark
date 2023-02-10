@@ -9,8 +9,8 @@ defmodule Calculate do
   end
 end
 
-numberOfIteration = 1000000
+numberOfIterations = 1000000000
 
-result = Calculate.pi(numberOfIteration)
+result = Calculate.pi(numberOfIterations)
 
 IO.puts(result)

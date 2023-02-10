@@ -1,4 +1,4 @@
-﻿open System
+open System
 
 let InCircle x y =
     x*x + y*y < 1.0
@@ -25,6 +25,6 @@ let CalculatePi numberOfIterations =
 
     4. * double(totalCounter) / double(numberOfIterations)
 
-let numberOfIterations = 1000000
+let numberOfIterations = 1000000000
 let result = CalculatePi numberOfIterations
 printfn "%A" result

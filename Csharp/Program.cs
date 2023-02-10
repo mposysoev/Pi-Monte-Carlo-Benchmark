@@ -1,4 +1,4 @@
-﻿namespace PiMc
+namespace PiMc
 {
     class Program
     {
@@ -22,7 +22,7 @@
         }
         static void Main(string[] args)
         {
-            int numberOfIteration = 1000000;
+            int numberOfIteration = 1000000000;
             double result = CalculatePi(numberOfIteration);
             Console.WriteLine(result);
         }

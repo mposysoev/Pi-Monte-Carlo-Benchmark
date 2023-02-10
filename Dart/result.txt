@@ -1,0 +1,4 @@
+Benchmark 1: ./main.exe
+  Time (mean ± σ):     130.549 s ±  0.102 s    [User: 130.440 s, System: 0.176 s]
+  Range (min … max):   130.410 s … 130.695 s    10 runs
+ 

@@ -12,7 +12,7 @@ function calculate_pi(n) {
 }
 
 function main() {
-  var number_of_iterations = 1000000;
+  var number_of_iterations = 1000000000;
   var result = calculate_pi(number_of_iterations);
   console.log(result);
 }

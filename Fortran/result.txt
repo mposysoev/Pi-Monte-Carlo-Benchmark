@@ -1,0 +1,4 @@
+Benchmark 1: ./a.out
+  Time (mean ± σ):     41.756 s ±  0.159 s    [User: 41.711 s, System: 0.003 s]
+  Range (min … max):   41.625 s … 42.170 s    10 runs
+ 

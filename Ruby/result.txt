@@ -1,0 +1,4 @@
+Benchmark 1: ruby main.rb
+  Time (mean ± σ):     335.032 s ±  1.427 s    [User: 334.681 s, System: 0.025 s]
+  Range (min … max):   334.007 s … 337.664 s    10 runs
+ 

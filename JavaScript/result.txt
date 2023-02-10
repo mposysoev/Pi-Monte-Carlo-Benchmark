@@ -1,0 +1,4 @@
+Benchmark 1: node main.js
+  Time (mean ± σ):     40.622 s ±  0.057 s    [User: 40.490 s, System: 0.031 s]
+  Range (min … max):   40.573 s … 40.748 s    10 runs
+ 

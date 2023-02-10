@@ -1,0 +1,4 @@
+Benchmark 1: bin/Release/net7.0/Csharp
+  Time (mean ± σ):     20.476 s ±  0.108 s    [User: 20.359 s, System: 0.058 s]
+  Range (min … max):   20.361 s … 20.761 s    10 runs
+ 

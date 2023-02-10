@@ -15,6 +15,6 @@ def calculate_pi(n)
   return 4.0 * counter / n
 end
 
-number_of_iteration = 1000000
+number_of_iteration = 1000000000
 result = calculate_pi(number_of_iteration)
 puts result

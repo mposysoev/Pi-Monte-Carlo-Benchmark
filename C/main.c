@@ -25,7 +25,7 @@ double calculate_pi(int n)
 
 int main()
 {
-    int number_of_iterations = 1000000;
+    int number_of_iterations = 1000000000;
     double result = calculate_pi(number_of_iterations);
     printf("%f", result);
 

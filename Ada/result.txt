@@ -1,0 +1,3 @@
+Benchmark 1: ./main
+  Time (mean ± σ):     28.926 s ±  0.191 s    [User: 28.872 s, System: 0.004 s]
+  Range (min … max):   28.702 s … 29.237 s    10 runs

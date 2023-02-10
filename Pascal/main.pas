@@ -2,7 +2,7 @@ program pimc;
 
 var
     result: double;
-    number_of_iterations: int64 = 1000000;
+    number_of_iterations: int64 = 1000000000;
 
 function calculate_pi(n: int64) : double;
 var

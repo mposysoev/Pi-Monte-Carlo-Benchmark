@@ -1,0 +1,4 @@
+Benchmark 1: ./Beef
+  Time (mean ± σ):     12.630 s ±  0.044 s    [User: 12.606 s, System: 0.002 s]
+  Range (min … max):   12.599 s … 12.750 s    10 runs
+ 

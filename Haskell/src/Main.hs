@@ -6,7 +6,7 @@ import Data.Foldable (Foldable(foldl'))
 
 
 numberOfIterations :: Int
-numberOfIterations = 1000000
+numberOfIterations = 1000000000
  
 makeRandomPoints :: [Double] -> [(Double, Double)]
 makeRandomPoints (x:y:rest) = (x, y):makeRandomPoints rest

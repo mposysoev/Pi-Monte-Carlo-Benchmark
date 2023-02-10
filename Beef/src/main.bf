@@ -25,7 +25,7 @@ namespace Beef
         static void Main()
         {
 			
-			int number_of_iterations = 1000000;
+			int number_of_iterations = 1000000000;
 			double result = Calculate_Pi(number_of_iterations);
             Console.WriteLine(result);
         }
