@@ -71,7 +71,7 @@ All benchmarks made with different random engines. It's more comparison of imple
 |    20    | Kotlin      | openjdk 19         | 80.804             | 13.08 |
 |    21    | Kotlin      | kotlinc 1.7.21     | 106.059            | 17.16 |
 |    22    | Dart        | dart 2.18.5        | 130.410            | 21.1  |
-|    23    | Python (v4) | 3.11.1 (gcc)       | 293.809            | 47.54 |
+|    23    | Python (v2) | 3.11.1 (gcc)       | 293.809            | 47.54 |
 |    24    | Ruby        | ruby 3.0.4         | 334.007            | 54.05 |
 |    25    | Elixir      | elixir 1.14        | 422.551            | 68.37 |
 |    -     | Haskell     | ghc 9.2.5          | ---                |       |
