@@ -31,9 +31,15 @@ F#/bin/Release/net6.0/F#.pdb
 /F#/bin/Release/net6.0/F#.dll
 /F#/bin/Release/net6.0/F#.pdb
 Haskell/.stack-work/
+Haskell/dist-newstyle/*
+Haskell/dist-newstyle/cache
+Haskell/dist-newstyle/packagedb
 Beef/build
 Beef/recovery
 *.o
 *.out
 Ada/main
 Ada/main.ali
+Rust/rust-native-smol-rng
+Rust/rust-native
+Rust/Rust

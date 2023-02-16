@@ -1,0 +1,3 @@
+Benchmark 1: pwsh ./main-3.ps1
+  Time (mean ± σ):     242.231 s ±  2.472 s    [User: 239.212 s, System: 3.545 s]
+  Range (min … max):   240.483 s … 243.979 s    2 runs

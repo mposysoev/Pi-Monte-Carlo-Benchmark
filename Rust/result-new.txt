@@ -1,0 +1,4 @@
+Benchmark 1: ./rust-native-smol-rng
+  Time (mean ± σ):      8.381 s ±  0.009 s    [User: 8.373 s, System: 0.001 s]
+  Range (min … max):    8.369 s …  8.402 s    10 runs
+ 

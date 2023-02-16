@@ -1,7 +1,6 @@
-$number_of_iterations = 1000000
 $counter = 0
 
-for ($i = 0; $i -lt $number_of_iterations; $i++) {
+for ($i = 0; $i -lt 1000000; $i++) {
     $x = Get-Random -Minimum 0.0 -Maximum 1.0
     $y = Get-Random -Minimum 0.0 -Maximum 1.0
 
@@ -10,6 +9,6 @@ for ($i = 0; $i -lt $number_of_iterations; $i++) {
     }
 }
 
-$result = 4.0 * $counter / $number_of_iteration
+$result = 4.0 * $counter / 1000000.0
 
 Write-Output $result

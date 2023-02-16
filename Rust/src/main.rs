@@ -1,7 +1,8 @@
 use rand::prelude::*;
+use rand::rngs::SmallRng;
 
 fn calculate_pi(n: usize) -> f64 {
-    let mut rng = thread_rng();
+    let mut rng = SmallRng::from_entropy();
 
     let mut counter = 0;
     for _ in 0..n {

@@ -52,11 +52,11 @@ All benchmarks made with different random engines. It's more comparison of imple
 |    1     | Nim         | nim 1.6.6          | 6.180              | 1     |
 | 24 -> 2  | Julia (v2)  | julia 1.8.3        | 6.329              | 1.02  |
 |    3     | Zig         | 0.11.0             | 6.932              | 1.12  |
-|    4     | Beef        | BeefBuild 0.43.5   | 12.599             | 2.04  |
-|    5     | Crystal     | 1.6.2              | 15.703             | 2.54  |
-| 16 -> 6  | C#          | dotnet 7           | 20.361             | 3.29  |
-|    7     | Odin\*      | nightly-2022-12-12 | 20.548             | 3.32  |
-|    8     | Rust        | rustc 1.65         | 20.901             | 3.38  |
+|    4     | Rust        | rustc 1.65         | 8.369              | 1.35  |
+|    5     | Beef        | BeefBuild 0.43.5   | 12.599             | 2.04  |
+|    6     | Crystal     | 1.6.2              | 15.703             | 2.54  |
+| 16 -> 7  | C#          | dotnet 7           | 20.361             | 3.29  |
+|    8     | Odin\*      | nightly-2022-12-12 | 20.548             | 3.32  |
 | 20 -> 9  | F#          | dotnet 7           | 25.438             | 4.12  |
 |    10    | D           | ldc2 1.30          | 26.952             | 4.36  |
 |    11    | Ada         | gnatmake-gcc 12.2  | 28.702             | 4.64  |
