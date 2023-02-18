@@ -1,0 +1,4 @@
+Benchmark 1: perl main.pl
+  Time (mean ± σ):     308.862 s ±  0.989 s    [User: 308.424 s, System: 0.075 s]
+  Range (min … max):   307.984 s … 309.934 s    3 runs
+ 
