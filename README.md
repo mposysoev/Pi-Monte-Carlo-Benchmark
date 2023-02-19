@@ -40,8 +40,8 @@ All benchmarks made with different random engines. It's more comparison of imple
 |  26   | R           | Rscript 4.2.2      | 406.0 ± 7.9       | 59.71    | :ok:                 |
 |  27   | Ruby        | ruby 3.0.4         | 432.1 ± 5.1       | 63.54    | :ok:                 |
 |  28   | Prolog      | swipl 9.0.3        | 673.6 ± 5.2       | 99.05    | :star:               |
-|  28   | Elixir      | elixir 1.14        | 1115 ± 16         | 163.97   | :shit:               |
-|  29   | PowerShell  | ps6                | 112527            | 16548.09 | :smile:              |
+|  29   | Elixir      | elixir 1.14        | 1115 ± 16         | 163.97   | :shit:               |
+|  30   | PowerShell  | ps6                | 112527            | 16548.09 | :smile:              |
 
 \* -- Odin output 3.141 (only 3 digits after point). It seems that this language still doesn't have full support of float64 type. Required test after next release
 
