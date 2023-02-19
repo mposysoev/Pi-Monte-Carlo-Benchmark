@@ -3,12 +3,12 @@ Zig				zig build-exe -OReleaseFast <file_name>
 Beef        	BeefBuild -config=Release
 Crystal     	crystal build <file_name> --release
 Odin			odin build <file_name> -file -opt:3
-Rust			cargo build --release , but custom release profile in cargo.toml
+Rust			RUSTFLAGS="-C target-cpu=native" cargo build --release , but custom release profile in cargo.toml
 D				ldc2.exe -O3 -release -mcpu=native -march=x86-64 -flto=full -static -ffast-math <file_name>
 Ada				gnatmake -O3 -fomit-frame-pointer -march=native -gnatNp -f <file_name>
 C++				g++ <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math -ffast-math
-V				v <file_name> (-prod doesn't work)
-Fortran			ifort -O3 -march=native -ipo -static -qopenmp <file_name>
+V				v -prod <file_name>
+Fortran			gfortran -O3 -march=native -ipo -static -qopenmp <file_name>
 Haskell 		stack build
 C				gcc <file_name> -O3 -s -static -flto -march=native -mtune=native -fomit-frame-pointer -fno-signed-zeros -fno-trapping-math -fassociative-math -ffast-math
 Go				go build <file_name>
@@ -24,5 +24,6 @@ Python			python -OO <file_name>
 Julia			julia -O3 --math-mode=ieee <file_name>
 R				rscript <file_name>
 Ruby			ruby <file_name>
-Elixir          elixir main.ex
+Prolog          swipl -nodebug -g true -O --goal=main --stand_alone=true -o main.exe -c <file_name>
+Elixir          elixir <file_name>
 PowerShell		./<file_name>

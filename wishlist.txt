@@ -1,7 +1,7 @@
-Clojure (in progress...)
+Clojure
 Scala
-Common Lisp
-Perl/Raku
+!Common Lisp
+Raku
 Swift 
 OCaml
 Idris
@@ -11,10 +11,9 @@ Elm
 PHP
 Scheme
 Jai
-Prolog
 Assembly (Fasm, Nasm, Gas)
 Chapel
-Racket
+!Racket
 Mercury
 Chez Scheme
 PureScript
@@ -31,4 +30,4 @@ C2
 C3
 Nelua
 Jakt
-Roand
+Roland
