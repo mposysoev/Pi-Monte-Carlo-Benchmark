@@ -1,4 +1,4 @@
-Benchmark 1: ./a.out
-  Time (mean ± σ):     30.497 s ±  0.074 s    [User: 30.464 s, System: 0.001 s]
-  Range (min … max):   30.376 s … 30.671 s    10 runs
+Benchmark 1: ./output.exe
+  Time (mean ± σ):     18.475 s ±  0.164 s    [User: 18.444 s, System: 0.005 s]
+  Range (min … max):   18.284 s … 18.721 s    10 runs
  
