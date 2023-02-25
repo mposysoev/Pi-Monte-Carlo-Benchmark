@@ -1,4 +1,0 @@
-Benchmark 1: ./output.exe
-  Time (mean ± σ):     62.849 s ±  0.016 s    [User: 62.753 s, System: 0.010 s]
-  Range (min … max):   62.832 s … 62.887 s    10 runs
- 

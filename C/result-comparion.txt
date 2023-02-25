@@ -1,0 +1,17 @@
+Benchmark 1: ./exe-gsl-static
+  Time (abs ≡):        14.305 s               [User: 14.293 s, System: 0.000 s]
+ 
+Benchmark 2: ./exe-gsl-simple
+  Time (abs ≡):        14.322 s               [User: 14.307 s, System: 0.002 s]
+ 
+Benchmark 3: ./exe-nogsl-static
+  Time (abs ≡):        61.170 s               [User: 61.117 s, System: 0.000 s]
+ 
+Benchmark 4: ./exe-nogsl-simple
+  Time (abs ≡):        62.738 s               [User: 62.680 s, System: 0.002 s]
+ 
+Summary
+  './exe-gsl-static' ran
+    1.00 times faster than './exe-gsl-simple'
+    4.28 times faster than './exe-nogsl-static'
+    4.39 times faster than './exe-nogsl-simple'

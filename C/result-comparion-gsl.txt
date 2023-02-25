@@ -1,0 +1,11 @@
+Benchmark 1: ./exe-gsl-static
+  Time (mean ± σ):     14.316 s ±  0.004 s    [User: 14.294 s, System: 0.005 s]
+  Range (min … max):   14.310 s … 14.319 s    5 runs
+ 
+Benchmark 2: ./exe-gsl-simple
+  Time (mean ± σ):     14.326 s ±  0.004 s    [User: 14.307 s, System: 0.002 s]
+  Range (min … max):   14.320 s … 14.333 s    5 runs
+ 
+Summary
+  './exe-gsl-static' ran
+    1.00 ± 0.00 times faster than './exe-gsl-simple'

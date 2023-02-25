@@ -16,15 +16,15 @@ All benchmarks made with different random engines. It's more comparison of imple
 |   2   | Zig         | 0.11.0             | 7.4 ± 0.7         | 1.09     | :shit:               |
 |   3   | Rust        | rustc 1.65         | 9.3 ± 0.5         | 1.36     | :star: :star: :star: |
 |   4   | Beef        | BeefBuild 0.43.5   | 13.9 ± 0.6        | 2.04     | :shit: :shit:        |
-|   5   | Crystal     | 1.6.2              | 18.1 ± 1.1        | 2.66     | :star:               |
-|   6   | C++         | g++ 12.2           | 20.2 ± 0.3        | 2.97     | :shit: :shit:        |
-|   7   | Odin\*      | nightly-2022-12-12 | 22.1 ± 1.3        | 3.25     | :shit: :shit:        |
-|   8   | D           | ldc2 1.30          | 29.5 ± 0.9        | 4.34     | :star: :star:        |
-|   9   | Ada         | gnatmake-gcc 12.2  | 29.8 ± 1.0        | 4.38     | :star:               |
-|  10   | V           | v 0.3.2            | 34.3 ± 0.8        | 5.04     | :shit:               |
-|  11   | Fortran     | gfortran 12.2      | 44.2 ± 1.6        | 6.5      | :ok:                 |
-|  12   | Haskell     | ghc 9.2.5          | 54.6 ± 3.3        | 8.03     | :shit: :shit: :shit: |
-|  13   | C           | gcc 12.2           | 62.1 ± 0.8        | 9.13     | :shit: :shit:        |
+|   5   | C           | gcc 12.2           | 15.3 ± 1.1        | 2.25     | :shit: :shit:        |
+|   6   | Crystal     | 1.6.2              | 18.1 ± 1.1        | 2.66     | :star:               |
+|   7   | C++         | g++ 12.2           | 20.2 ± 0.3        | 2.97     | :shit: :shit:        |
+|   8   | Odin\*      | nightly-2022-12-12 | 22.1 ± 1.3        | 3.25     | :shit: :shit:        |
+|   9   | D           | ldc2 1.30          | 29.5 ± 0.9        | 4.34     | :star: :star:        |
+|  10   | Ada         | gnatmake-gcc 12.2  | 29.8 ± 1.0        | 4.38     | :star:               |
+|  11   | V           | v 0.3.2            | 34.3 ± 0.8        | 5.04     | :shit:               |
+|  12   | Fortran     | gfortran 12.2      | 44.2 ± 1.6        | 6.5      | :ok:                 |
+|  13   | Haskell     | ghc 9.2.5          | 54.6 ± 3.3        | 8.03     | :shit: :shit: :shit: |
 |  14   | Go          | go 1.19            | 67.0 ± 0.9        | 9.85     | :star:               |
 |  15   | Pascal      | Free Pascal 3.2.2  | 77.8 ± 1.5        | 11.44    | :shit:               |
 |  16   | C#\*\*      | dotnet 7           | 92.7 (173.2±13.1) | 13.63    | :star: :star:        |
@@ -56,17 +56,17 @@ All benchmarks made with different random engines. It's more comparison of imple
 |    3     | Zig         | 0.11.0             | 6.932              | 1.12   |
 |    4     | Rust        | rustc 1.65         | 8.369              | 1.35   |
 |    5     | Beef        | BeefBuild 0.43.5   | 12.599             | 2.04   |
-|    6     | Crystal     | 1.6.2              | 15.703             | 2.54   |
-|    7     | C++         | g++ 12.2           | 18.284             | 2.95   |
-| 16 -> 8  | C#          | dotnet 7           | 20.361             | 3.29   |
-|    9     | Odin\*      | nightly-2022-12-12 | 20.548             | 3.32   |
-| 20 -> 10 | F#          | dotnet 7           | 25.438             | 4.12   |
-|    11    | D           | ldc2 1.30          | 26.952             | 4.36   |
-|    12    | Ada         | gnatmake-gcc 12.2  | 28.702             | 4.64   |
-|    13    | V           | v 0.3.2            | 32.299             | 5.23   |
-| 19 -> 14 | JS/TS\*\*\* | node.js            | 40.573             | 6.57   |
-|    15    | Fortran     | gfortran 12.2      | 41.625             | 6.74   |
-|    16    | C           | gcc 12.2           | 61.202             | 9.9    |
+|    6     | C           | gcc 12.2           | 14.310             | 2.31   |
+|    7     | Crystal     | 1.6.2              | 15.703             | 2.54   |
+|    8     | C++         | g++ 12.2           | 18.284             | 2.95   |
+| 16 -> 9  | C#          | dotnet 7           | 20.361             | 3.29   |
+|    10    | Odin\*      | nightly-2022-12-12 | 20.548             | 3.32   |
+| 20 -> 11 | F#          | dotnet 7           | 25.438             | 4.12   |
+|    12    | D           | ldc2 1.30          | 26.952             | 4.36   |
+|    13    | Ada         | gnatmake-gcc 12.2  | 28.702             | 4.64   |
+|    14    | V           | v 0.3.2            | 32.299             | 5.23   |
+| 19 -> 15 | JS/TS\*\*\* | node.js            | 40.573             | 6.57   |
+|    16    | Fortran     | gfortran 12.2      | 41.625             | 6.74   |
 |    17    | Go          | go 1.19            | 64.536             | 10.44  |
 |    18    | Pascal      | Free Pascal 3.2.2  | 76.289             | 12.34  |
 |    19    | Java        | openjdk 19         | 80.290             | 12.99  |

@@ -1,0 +1,4 @@
+Benchmark 1: ./exe-gsl-static
+  Time (mean ± σ):      15.3 ms ±   1.1 ms    [User: 14.8 ms, System: 1.2 ms]
+  Range (min … max):    14.8 ms …  27.3 ms    200 runs
+ 
