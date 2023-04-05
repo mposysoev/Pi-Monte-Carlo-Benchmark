@@ -1,0 +1,4 @@
+Benchmark 1: php main.php
+  Time (mean ± σ):     154.468 s ±  0.081 s    [User: 154.249 s, System: 0.032 s]
+  Range (min … max):   154.411 s … 154.525 s    2 runs
+ 
