@@ -32,17 +32,18 @@ All benchmarks made with different random engines. It's more comparison of imple
 |  18   | Pascal      | Free Pascal 3.2.2  | 76.289             | 12.34  | :shit:               |
 |  19   | Java        | openjdk 19         | 80.290             | 12.99  | :shit: :shit: :shit: |
 |  20   | Kotlin      | openjdk 19         | 80.804             | 13.08  | :shit: :shit:        |
-|  21   | Kotlin      | kotlinc 1.7.21     | 106.059            | 17.16  | :star:               |
-|  22   | Dart        | dart 2.18.5        | 130.410            | 21.1   | :star:               |
-|  23   | PHP         | php 8.2.2          | 154.411            | 24.98  | :shit:               |
-|  24   | Python (v2) | 3.11.1 (gcc)       | 293.809            | 47.54  | :star: :star: :star: |
-|  25   | Perl        | 5.36               | 307.984            | 49.83  | :ok:                 |
-|  26   | Ruby        | ruby 3.0.4         | 334.007            | 54.05  | :ok:                 |
-|  27   | Elixir      | elixir 1.14        | 422.551            | 68.37  | :shit:               |
-|  28   | Prolog      | swipl 9.0.3        | 633.671            | 102.53 | :star:               |
-|  29   | Haskell     | ghc 9.2.5          | ---                |        | :shit: :shit: :shit: |
-|  30   | R           | Rscript 4.2.2      | ---                |        | :ok:                 |
-|  31   | PowerShell  | ps6                | ~112527000         |        | :smile: :star:       |
+|  21   | Scala       | scala 3            | 85.945             | 13,9   | :ok:                 |
+|  22   | Kotlin      | kotlinc 1.7.21     | 106.059            | 17.16  | :star:               |
+|  23   | Dart        | dart 2.18.5        | 130.410            | 21.1   | :star:               |
+|  24   | PHP         | php 8.2.2          | 154.411            | 24.98  | :shit:               |
+|  25   | Python (v2) | 3.11.1 (gcc)       | 293.809            | 47.54  | :star: :star: :star: |
+|  26   | Perl        | 5.36               | 307.984            | 49.83  | :ok:                 |
+|  27   | Ruby        | ruby 3.0.4         | 334.007            | 54.05  | :ok:                 |
+|  28   | Elixir      | elixir 1.14        | 422.551            | 68.37  | :shit:               |
+|  29   | Prolog      | swipl 9.0.3        | 633.671            | 102.53 | :star:               |
+|  30   | Haskell     | ghc 9.2.5          | ---                |        | :shit: :shit: :shit: |
+|  31   | R           | Rscript 4.2.2      | ---                |        | :ok:                 |
+|  32   | PowerShell  | ps6                | ~112527000         |        | :smile: :star:       |
 
 \* -- Odin output 3.141 (only 3 digits after point). It seems that this language still doesn't have full support of float64 type. Required test after next release
 
